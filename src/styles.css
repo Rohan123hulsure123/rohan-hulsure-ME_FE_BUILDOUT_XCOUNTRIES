@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 35px;
+  column-gap: 40px;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid gray;
+  border-shadow: 1px 1px 1px gray;
+
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.card img {
+  width: 250px;
+  height: 100px;
+}
